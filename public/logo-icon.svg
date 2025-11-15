@@ -1,0 +1,40 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield outline -->
+  <path 
+    d="M32 8L12 16V32C12 45.2548 20.7452 56.7452 32 60C43.2548 56.7452 52 45.2548 52 32V16L32 8Z" 
+    stroke="black" 
+    strokeWidth="2" 
+    fill="none"
+  />
+  <!-- Padlock body -->
+  <rect 
+    x="24" 
+    y="28" 
+    width="16" 
+    height="16" 
+    rx="2" 
+    fill="black"
+  />
+  <!-- Padlock shackle -->
+  <path 
+    d="M28 28V22C28 18.6863 30.6863 16 34 16C37.3137 16 40 18.6863 40 22V28" 
+    stroke="black" 
+    strokeWidth="2" 
+    fill="none"
+  />
+  <!-- Keyhole -->
+  <circle 
+    cx="32" 
+    cy="36" 
+    r="2" 
+    fill="white"
+  />
+  <rect 
+    x="31" 
+    y="38" 
+    width="2" 
+    height="4" 
+    fill="white"
+  />
+</svg>
+

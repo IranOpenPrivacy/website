@@ -1,0 +1,46 @@
+/* Brand Guidelines - Minimal Black & White with Blue Accent */
+
+:root {
+  --brand-black: #000000;
+  --brand-white: #FFFFFF;
+  --brand-accent: #276EF6;
+  --brand-gray: #666666;
+  --brand-light-gray: #F5F5F5;
+}
+
+/* Logo Usage */
+.logo-shield {
+  stroke: var(--brand-black);
+  fill: none;
+}
+
+.logo-padlock {
+  fill: var(--brand-black);
+}
+
+.logo-keyhole {
+  fill: var(--brand-white);
+}
+
+/* Brand Typography */
+.brand-heading {
+  font-family: 'Vazirmatn', 'IRANSans', system-ui, sans-serif;
+  font-weight: 700;
+  color: var(--brand-black);
+}
+
+.brand-body {
+  font-family: 'Vazirmatn', 'IRANSans', system-ui, sans-serif;
+  font-weight: 400;
+  color: var(--brand-black);
+}
+
+/* Brand Colors */
+.brand-accent {
+  color: var(--brand-accent);
+}
+
+.brand-accent-bg {
+  background-color: var(--brand-accent);
+}
+
