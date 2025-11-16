@@ -1,0 +1,66 @@
+LLM.txt
+Iran Open Privacy (IOP) - Full Project Context for AI Agents
+------------------------------------------------------------
+
+[Purpose]
+This file gives full context, objectives, tone, and structure for all AI models working on the Iran Open Privacy project, ensuring consistency in writing, design, documentation, and development tasks.
+
+[Project Summary]
+Iran Open Privacy (IOP) is an open, neutral, non-profit privacy standard for digital products in Iran. The project aims to create a public, community-driven framework for defining and certifying privacy practices in technology products.
+
+[Core Principles]
+- Neutrality
+- Open Governance
+- Transparency
+- Practicality & Implementability
+- Respect for User Rights
+- Privacy by Design
+
+[Key Artifacts]
+- Manifesto
+- Privacy Framework v0.x
+- Certification System (Level 1–3)
+- Governance Model
+- Community Platform
+- Tools & Checklists (future)
+- Press Kits & Awareness Material (future)
+
+[Website Structure]
+- Home
+- About
+- Framework
+- Governance
+- Community
+- Contact
+- Coming Soon Sections
+
+[Writing Style Guidelines]
+- Clear, simple, minimalist
+- Accurate technical language
+- Neutral, non-political
+- Avoid marketing language
+- Respect user privacy
+- Persian (formal but simple tone)
+
+[Brand Tone]
+- Trustworthy
+- Technical + Ethical
+- Open & Collaborative
+- Calm, Serious, Minimalist
+
+[To Be Added Soon]
+- Certified Services List
+- Automatic Privacy Audit Tool
+- Contribution Score System
+- Public Voting Platform
+- API & Developer Tools
+
+[Use Cases for AI Assistants]
+- Generate documentation
+- Draft framework sections
+- Expand privacy checklists
+- Review governance proposals
+- Draft certification guidelines
+- Create website copy
+- Create templates, JSON, markdown
+- Draft legal-style texts (not legal advice)

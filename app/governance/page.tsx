@@ -5,12 +5,13 @@ export default function Governance() {
   return (
     <>
       <Header />
-      <main className="container mx-auto px-4 py-20">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-12">حکمرانی باز</h1>
-          
-          <section className="mb-16">
-            <h2 className="text-2xl font-semibold mb-6">مقدمه</h2>
+      <main className="bg-white">
+        <div className="container mx-auto px-4 py-20">
+          <div className="max-w-4xl mx-auto">
+            <h1 className="text-4xl font-bold mb-12 text-black">حکمرانی باز</h1>
+            
+            <section className="mb-16">
+              <h2 className="text-2xl font-semibold mb-6 text-accent">مقدمه</h2>
             <div className="space-y-4 text-lg leading-relaxed text-gray-700">
               <p>
                 IOP بر اساس مدل حکمرانی باز و مشارکتی عمل می‌کند. تمام تصمیم‌ها به صورت شفاف 
@@ -19,8 +20,8 @@ export default function Governance() {
             </div>
           </section>
 
-          <section className="mb-16 border-t border-black pt-12">
-            <h2 className="text-2xl font-semibold mb-6">کمیته‌ها</h2>
+            <section className="mb-16 border-t border-gray-200 pt-12">
+              <h2 className="text-2xl font-semibold mb-6 text-accent">کمیته‌ها</h2>
             <div className="space-y-6 text-lg leading-relaxed text-gray-700">
               <div>
                 <h3 className="font-semibold mb-2">کمیته فنی</h3>
@@ -44,8 +45,8 @@ export default function Governance() {
             </div>
           </section>
 
-          <section className="mb-16 border-t border-black pt-12">
-            <h2 className="text-2xl font-semibold mb-6">مشارکت‌کنندگان</h2>
+            <section className="mb-16 border-t border-gray-200 pt-12">
+              <h2 className="text-2xl font-semibold mb-6 text-accent">مشارکت‌کنندگان</h2>
             <div className="space-y-4 text-lg leading-relaxed text-gray-700">
               <p>
                 تمام مشارکت‌کنندگان در IOP به صورت داوطلبانه فعالیت می‌کنند. هر کسی می‌تواند 
@@ -57,8 +58,8 @@ export default function Governance() {
             </div>
           </section>
 
-          <section className="mb-16 border-t border-black pt-12">
-            <h2 className="text-2xl font-semibold mb-6">قوانین تصمیم‌گیری</h2>
+            <section className="mb-16 border-t border-gray-200 pt-12">
+              <h2 className="text-2xl font-semibold mb-6 text-accent">قوانین تصمیم‌گیری</h2>
             <div className="space-y-4 text-lg leading-relaxed text-gray-700">
               <p>
                 تمام تصمیم‌های مهم در IOP از طریق بحث‌های باز و رای‌گیری جامعه گرفته می‌شوند. 
@@ -73,15 +74,16 @@ export default function Governance() {
             </div>
           </section>
 
-          <section className="mb-16 border-t border-black pt-12">
-            <h2 className="text-2xl font-semibold mb-6">شفافیت</h2>
+            <section className="mb-16 border-t border-gray-200 pt-12">
+              <h2 className="text-2xl font-semibold mb-6 text-accent">شفافیت</h2>
             <div className="space-y-4 text-lg leading-relaxed text-gray-700">
               <p>
                 تمام فرآیندهای حکمرانی در IOP به صورت شفاف و قابل دسترس برای همه هستند. 
                 جلسات، تصمیم‌ها و مستندات در دسترس عموم قرار دارند.
               </p>
-            </div>
-          </section>
+              </div>
+            </section>
+          </div>
         </div>
       </main>
       <Footer />

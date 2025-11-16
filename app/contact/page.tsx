@@ -5,12 +5,13 @@ export default function Contact() {
   return (
     <>
       <Header />
-      <main className="container mx-auto px-4 py-20">
-        <div className="max-w-2xl mx-auto">
-          <h1 className="text-4xl font-bold mb-12">تماس با ما</h1>
-          
-          <section className="mb-16">
-            <h2 className="text-2xl font-semibold mb-6">ارسال پیام</h2>
+      <main className="bg-white">
+        <div className="container mx-auto px-4 py-20">
+          <div className="max-w-2xl mx-auto">
+            <h1 className="text-4xl font-bold mb-12 text-black">تماس با ما</h1>
+            
+            <section className="mb-16">
+              <h2 className="text-2xl font-semibold mb-6 text-accent">ارسال پیام</h2>
             <form className="space-y-6">
               <div>
                 <label htmlFor="name" className="block mb-2 font-medium">
@@ -20,7 +21,7 @@ export default function Contact() {
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full px-4 py-2 border border-black focus:outline-none focus:ring-2 focus:ring-accent"
+                  className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   required
                 />
               </div>
@@ -33,7 +34,7 @@ export default function Contact() {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full px-4 py-2 border border-black focus:outline-none focus:ring-2 focus:ring-accent"
+                  className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   required
                 />
               </div>
@@ -46,7 +47,7 @@ export default function Contact() {
                   type="text"
                   id="subject"
                   name="subject"
-                  className="w-full px-4 py-2 border border-black focus:outline-none focus:ring-2 focus:ring-accent"
+                  className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   required
                 />
               </div>
@@ -59,7 +60,7 @@ export default function Contact() {
                   id="message"
                   name="message"
                   rows={6}
-                  className="w-full px-4 py-2 border border-black focus:outline-none focus:ring-2 focus:ring-accent"
+                  className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
                   required
                 ></textarea>
               </div>
@@ -73,8 +74,8 @@ export default function Contact() {
             </form>
           </section>
 
-          <section className="mb-16 border-t border-black pt-12">
-            <h2 className="text-2xl font-semibold mb-6">راه‌های دیگر ارتباط</h2>
+            <section className="mb-16 border-t border-gray-200 pt-12">
+              <h2 className="text-2xl font-semibold mb-6 text-accent">راه‌های دیگر ارتباط</h2>
             <div className="space-y-4 text-lg leading-relaxed text-gray-700">
               <div>
                 <h3 className="font-semibold mb-2">ایمیل</h3>
@@ -98,8 +99,9 @@ export default function Contact() {
                   </a>
                 </p>
               </div>
-            </div>
-          </section>
+              </div>
+            </section>
+          </div>
         </div>
       </main>
       <Footer />
